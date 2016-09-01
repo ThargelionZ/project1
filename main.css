@@ -10,11 +10,26 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    color: #494b4b;
+    font-family: Impact, Arial, "Times New Roman";
+    padding-left: 20px;
+}
+
 body {
     background-color: #0d9263;
     border: 0;
     margin: 0;
     padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main {
+    margin: 0;
 }
 
 .game-intro {
@@ -33,5 +48,40 @@ body {
     padding: 0;
     width: 100%;
 }
+
+.button {
+    background: linear-gradient(to bottom, #4aba91, #0e5135);
+    border: 2px solid #0e5135;
+    border-radius: 15px;
+    height: 50px;
+    margin: 0 auto -10px auto;
+    padding: 0;
+    position: relative;
+    top: -150px;
+    width: 200px;
+}
+
+.button:active {
+    background: linear-gradient(to top, #4aba91, #0e5135);
+}
+
+.start-button {
+    color: white;
+    display: inline;
+    font-family: Impact, Arial, "Times New Roman";
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.start-button:hover {
+    color: #494b4b;
+}
+
+.start-button:active {
+    color: black;
+}
+
 
 
